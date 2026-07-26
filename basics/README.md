@@ -13,3 +13,4 @@ Simple Bash scripts covering fundamental shell commands.
 8-firstdelete:Delete the file betty
 9-firstdirdeletion:Delete the directory my_first_directory that is in the /tmp directory.
 10-back:Write a script that changes the working directory to the previous one.
+11-lists:Write a script that lists all files (even ones with names beginning with a period character
