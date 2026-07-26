@@ -19,3 +19,4 @@ Simple Bash scripts covering fundamental shell commands.
 14-copy_html:Create a script that copies all the HTML files
 15-lets_move:Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 16-clean_emacs
+17-tree:Create a script that creates the directories welcome/, welcome/to
