@@ -16,3 +16,4 @@ Simple Bash scripts covering fundamental shell commands.
 11-lists:Write a script that lists all files (even ones with names beginning with a period character
 12-file_type:prints the type of the file
 13-symbolic_link:Create a symbolic link to /bin/ls, named __ls__.
+14-copy_html:Create a script that copies all the HTML files
