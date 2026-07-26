@@ -17,3 +17,4 @@ Simple Bash scripts covering fundamental shell commands.
 12-file_type:prints the type of the file
 13-symbolic_link:Create a symbolic link to /bin/ls, named __ls__.
 14-copy_html:Create a script that copies all the HTML files
+15-lets_move:Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
