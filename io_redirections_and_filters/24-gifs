@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" -printf "%f\n" | sort -f | xargs -I{} bash -c 'echo "${1%.gif}"' _ {}
+find . -type f -name "*.gif" -printf "%f\n" | LC_ALL=C sort -f | xargs -I{} bash -c 'echo "${1%.gif}"' _ {}
