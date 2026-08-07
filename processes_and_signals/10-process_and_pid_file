@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Creates /var/run/myscript.pid with its own PID, prints "To infinity and
+# beyond" indefinitely, and handles SIGTERM, SIGINT and SIGQUIT differently
+
+echo "$$" > /var/run/myscript.pid
+
+trap "echo 'Y U no love me?!'" SIGINT
+trap "echo 'I hate the kill command'; rm -f /var/run/myscript.pid; exit 0" SIGTERM
+trap "rm -f /var/run/myscript.pid; exit 0" SIGQUIT
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
