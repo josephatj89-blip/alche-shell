@@ -7,7 +7,6 @@ start() {
 	DIR="$(dirname "$0")"
 	"$DIR/manage_my_process" &
 	echo "$!" > "$PIDFILE"
-	echo "manage_my_process started"
 }
 
 stop() {
@@ -18,6 +17,7 @@ stop() {
 case "$1" in
 	start)
 		start
+		echo "manage_my_process started"
 		;;
 	stop)
 		stop
